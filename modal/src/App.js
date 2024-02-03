@@ -69,7 +69,8 @@ function App() {
       <button onClick={handleShow}>Open Form</button>
       { show && 
       <>
-      <div className="modal" onClick={handleClose}> </div>
+      <div className="mod" onClick={handleClose}> </div>
+        <div className='modal'>
         <div className='modal-content'>
         <form className='form' onSubmit={handlesubmit}>
         <h1>Fill Details</h1> 
@@ -87,7 +88,7 @@ function App() {
         onChange={handleChange}/>
         <button className='submit-button' type="submit">Submit</button>
       </form>
-      
+      </div>
      </div>
      </>}
 
