@@ -64,13 +64,13 @@ function App() {
 
   return (
     
-    <div className="modal" >
+    <div className="modalview" >
       <h1>User Details Modal</h1>
       <button onClick={handleShow}>Open Form</button>
       { show && 
       <>
-      <div className="modal-content" onClick={handleClose}> </div>
-        <div className='modalform'>
+      <div className="modal" onClick={handleClose}> </div>
+        <div className='modal-content'>
         <form className='form' onSubmit={handlesubmit}>
         <h1>Fill Details</h1> 
         <label htmlFor="username">Username:</label>
@@ -87,9 +87,6 @@ function App() {
         onChange={handleChange}/>
         <button className='submit-button' type="submit">Submit</button>
       </form>
-        
-      
-
       
      </div>
      </>}
