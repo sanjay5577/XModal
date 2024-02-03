@@ -1,4 +1,4 @@
-.modal {
+.modalview {
   /* text-align: center; */
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@
     margin-top: 50px;
   } */
 
-.modal-content{ 
+.mod{ 
  position: absolute;
 top: 0;
 left: 0;
@@ -33,7 +33,7 @@ display: flex;
   align-items: center;
 }
 
-.modalform{
+.modal-content{
   position: relative;
   width: 50%;
   background-color: white;
@@ -50,4 +50,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 
+}
+
+.modal{
+  width: 50%;
 }
